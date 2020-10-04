@@ -34,7 +34,7 @@ class MaterialAppWithTheme extends StatelessWidget {
     return MaterialApp(
       title: "Expense_Tracker",
       theme: theme.getTheme(
-        primarySwatch: Colors.purple,
+        primarySwatch: Colors.blue,
         accentColor: Colors.amber,
         errorColor: Colors.red,
       ),
@@ -50,18 +50,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   final List<Transaction> _userTransactions = [
-    // Transaction(
-    //   id: "T1",
-    //   title: "New Shoes",
-    //   date: DateTime.now(),
-    //   amount: 2000,
-    // ),
-    // Transaction(
-    //   id: "T2",
-    //   title: "Groceries",
-    //   date: DateTime.now(),
-    //   amount: 5000,
-    // ),
+   //break
   ];
   bool _showChart = false;
 
